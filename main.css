@@ -6,7 +6,8 @@ body {
     min-height: 100vh;
     padding: 100px;
     box-sizing: border-box;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -31,4 +32,8 @@ body {
     transform: scale(1.06, 1.06);
     box-shadow: 1px 1px 5px #8292D9aa, 
                 1px 1px 15px #8292D9aa;
+}
+
+.card:first-child {
+    grid-column-end: span 6;
 }
