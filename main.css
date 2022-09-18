@@ -7,6 +7,7 @@ body {
     padding: 100px;
     box-sizing: border-box;
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -23,7 +24,7 @@ body {
     border-radius: 8px;
     box-shadow: 1px 1px 5px #8292D9aa;
     transition-property: transform, box-shadow;
-    transition-duration: .5s;
+    transition-duration: .3s;
     background-color: #fff5;
 }
 .card:hover {
